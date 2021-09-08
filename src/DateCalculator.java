@@ -4,6 +4,7 @@ public class DateCalculator {
 	public static final int ORIGIN_YEAR = 1980;
 	public static final int DAYS_IN_A_YEAR = 365;
 	public static final int UNUSED = 0;
+	public static final int ALSO_UNUSED = 1;
 	
 	private int daysRemaining;
 	private int year;
