@@ -28,7 +28,9 @@ public class DateCalculator {
 
 	public void peelOffLeapYear()
 	{
-		System.out.println("Hello");
+
+		System.out.println("Hello world!");
+
 		if (daysRemaining > (DAYS_IN_A_YEAR+1))  //Zune Bug!
 		{
 			daysRemaining -= (DAYS_IN_A_YEAR+1);
